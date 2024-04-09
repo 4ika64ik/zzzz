@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, success, officeSuccess, friendlyCollective, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, success, officeSuccess, friendlyCollective, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 , luba , julia } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Главная" },
@@ -67,14 +67,14 @@ export const services = [
 
 export const reviews = [
     {
-        imgURL: customer1,
-        customerName: 'Максим Попов',
-        feedback: "Максим - вдохновленный лидер, помогающий нашим клиентам сделать переезд в новую страну легким и комфортным. Его заботливый подход и богатый опыт в области международной адаптации обеспечивают нашим клиентам гладкое переездное период и быструю адаптацию к новым условиям жизни."
+        imgURL: julia,
+        customerName: 'Ю́лия Бори́совна Нава́льная',
+        feedback: "Юлия - вдохновленный лидер, помогающий нашим клиентам сделать переезд в новую страну легким и комфортным. Его заботливый подход и богатый опыт в области международной адаптации обеспечивают нашим клиентам гладкое переездное период и быструю адаптацию к новым условиям жизни."
     },
     {
-        imgURL: customer2,
-        customerName: 'Елена Лебедева',
-        feedback: "Елена - выдающийся юрист с более чем 15-летним опытом в области миграционного права. Она всегда на шаг впереди, обеспечивая наших клиентов качественной правовой помощью. Ее профессионализм и внимание к деталям позволят вам чувствовать себя уверенно в процессе получения ВНЖ."
+        imgURL: luba,
+        customerName: 'Любо́вь Эдуа́рдовна Со́боль',
+        feedback: "Люба - выдающийся юрист с более чем 15-летним опытом в области миграционного права. Она всегда на шаг впереди, обеспечивая наших клиентов качественной правовой помощью. Ее профессионализм и внимание к деталям позволят вам чувствовать себя уверенно в процессе получения ВНЖ."
     }
 ];
 
