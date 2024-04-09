@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="flex justify-betweem items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
           <a className="text-white font-bold text-xl" href="/">
-              Life Change EU
+              Life Change
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm ">
 

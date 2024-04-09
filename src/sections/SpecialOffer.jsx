@@ -11,10 +11,10 @@ const SpecialOffer = () => {
       </div>
       <div className="flex flex-1 flex-col ">
         <h2 className="mt-10 font-palanquin text-4xl font-bold lg:max-w-lg">
-          <span className="text-blue-700">Выгоды работы </span> с нами
+          <span className="text-blue-700">Почему мы?</span>
         </h2>
         <p 
-        className="mt-4 lg:max-w-lg: info-text">Персональный эксперт сопровождает на всех этапах получения ВНЖ сбор необходимых документов без вашего участия экономия вашего времени опытные русскоязычные специалисты работаем с 2017 года гарантии прописаны в договоре
+        className="mt-4 lg:max-w-lg: info-text">Вы знаете что наши основатели уже не первый год работают над улучшением жизни Русского народа, за эти года у нас собралась команда отличных юристов и специалистов по миграции
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
             <TheForm label="Связаться с нами"/>
