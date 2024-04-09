@@ -1,0 +1,21 @@
+.container {
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.avatar-scroll {
+    display: flex;
+    animation: scrollAnimation 20s linear infinite;
+}
+
+@keyframes scrollAnimation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.avatar-scroll img {
+    margin-right: 10px;
+}
