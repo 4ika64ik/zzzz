@@ -1,7 +1,7 @@
 import { copyrightSign } from "../assets/icons"
 import { footerLogo } from "../assets/images"
 import { footerLinks, socialMedia } from "../constants"
-import Popup from "../components/pop-up/ PopUp.jsx";
+import Popup from "../components/pop-up/PopUp.jsx";
 
 const Footer = () => {
   return (
