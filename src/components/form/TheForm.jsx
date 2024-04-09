@@ -78,7 +78,7 @@ export default function TheForm({ label, iconURL, backgroundColor, textColor, bo
 
                                 <div className="my-5 bg-[#E5F0FF] py-2 px-1 rounded-s">
                                     <label className="block text-md font-bold text-gray-600">
-                                        Life Change 🚀 EU 🚀
+                                        Life Change
                                     </label>
                                     <div className="flex space-y-2 justify-between items-center">
                                         <p className="text-gray-500">

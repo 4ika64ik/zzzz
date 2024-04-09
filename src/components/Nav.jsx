@@ -7,7 +7,7 @@ const Nav = () => {
     <header className="padding-x py-8 absolute z-10 w-full">
         <nav className='flex justify-between items-center max-contianer'>
             <a href="/">
-                Life Change EU
+                Life Change
             </a>
             <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
                 {navLinks.map((item) => (
