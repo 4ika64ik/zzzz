@@ -22,6 +22,8 @@ import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 import luba from './luba.jpg'
 import julia from './julia.jpg'
+import video1 from './IMG_3541.mp4'
+import video2 from './IMG_3544.mp4'
 
 export {
     bigShoe1,
@@ -40,11 +42,13 @@ export {
     friendlyCollective,
     shoe7,
     collective,
-
+     
     thumbnailBackground,
     thumbnailShoe1,
     thumbnailShoe2,
     thumbnailShoe3,
     julia,
-    luba
+    luba,
+    video1,
+    video2
 }
