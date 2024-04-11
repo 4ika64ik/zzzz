@@ -78,6 +78,10 @@ const PopularProducts = () => {
     color: 'red',
     fontSize: '25px',
   };
+  const colots = {
+    color: 'rgb(211, 211, 211)',
+    fontSize: '25px',
+  };
 
   return (
     <section id='country' style={sectionStyle}>
@@ -86,7 +90,7 @@ const PopularProducts = () => {
           Что о нас <span style={{ color: '#0077cc' }}>говорят</span> люди
         </h2>
         
-        <p className='mt-2 font-montserrat text-slate-gray'>
+        <p style={colots} className='mt-2 font-montserrat text-slate-gray'>
   Иван Ургант - о проекте
 </p>
         {/* Воспроизведение локального видео video1 */}
@@ -98,7 +102,7 @@ const PopularProducts = () => {
     Ваш браузер не поддерживает элемент video.
   </video>
 </div>
-<p className='mt-2 font-montserrat text-slate-gray'>
+<p style={colots} className='mt-2 font-montserrat text-slate-gray'>
   Юрий Дудь - о проекте
 </p>
 {/* Воспроизведение локального видео video2 */}
