@@ -79,7 +79,7 @@ const PopularProducts = () => {
     fontSize: '25px',
   };
   const colots = {
-    color: 'rgb(211, 211, 211)',
+    color: 'rgb(105, 105, 105)',
     fontSize: '25px',
   };
 
