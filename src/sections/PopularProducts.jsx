@@ -80,7 +80,7 @@ const PopularProducts = () => {
   };
   const colots = {
     color: 'rgb(105, 105, 105)',
-    fontSize: '25px',
+    fontSize: '20px',
   };
 
   return (
