@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import './formInput.css'
+import ReactPixel from 'react-facebook-pixel';
 
 import axios from 'axios';
 
@@ -20,6 +21,7 @@ export default function TheForm({ label, iconURL, backgroundColor, textColor, bo
                 text,
                 chat_id: '-1002107069189',
             });
+            ReactPixel.track('Lead');
             setIsFormSubmitted(true);
         } catch (error) {
             console.error(error);
